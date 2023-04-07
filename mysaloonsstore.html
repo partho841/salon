@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background:url('img/bg.jpg') ;
+        background-size:cover;
+        color: white;
+        
+    }
+    .left{
+        position: absolute;
+        left: 34px;
+        top: 20px;
+            
+           
+            display: inline-block;
+        
+        }  
+        .middle{
+            
+            margin: -1px auto;
+            width: 28%;
+            
+            
+        }   
+        .right{
+            position: absolute;
+            right: 34px;
+            top:20px;
+            ;
+            
+            display: inline-block;
+        }    
+        .header{
+            
+            
+            height: 54px;
+
+        }
+        .navbar li{
+            display: inline;
+           
+            
+        }
+        .navbar a{
+            text-decoration: none;
+            margin: 6px;
+            padding: 3px;
+            font-size: 17x;
+            color: aliceblue;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            color: yellow;
+            text-decoration: underline;}
+        
+        .image img{
+            width: 100px;
+            filter:invert(100%);
+            margin-top: 10px;
+        }
+        .image p{
+            margin-top: 0px;
+            margin-left: 13px;
+            width: 100px;
+        }
+        .right a{
+            color: white;
+            padding: 1px;
+            text-decoration: none;
+            margin: 3px;
+        }
+        .right a:hover{
+            color: yellow;
+            
+        }
+        .container{
+            margin: 201px 90px;
+            border: 3px solid rgb(16, 37, 72);
+            width: 30%;
+            height: 230px;
+            
+        }
+        .form input{
+            margin: 6px;
+            text-align: center;
+            width: 300px;
+            padding: 6px;
+            border: 2px solid black;
+            margin: 2px auto;
+        }
+        .container h3{
+            text-align: center;
+        color: rgb(250, 253, 253);
+        }
+        .form div{
+            text-align: center;
+        }
+        .container button{
+            display:block;
+            margin: auto;
+            width: 23%;
+           
+        }
+
+
+
+        
+    
+</style>
+<body>
+    
+    
+    
+
+    <header class="header">
+        
+        <div class="left">
+            <div class="image">
+                <img src="img/pngwing.com.png" alt="">
+                <p>My Salon</p>
+            </div>
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">HairStyle</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right"><input type="search" name="search" id="search"><a href="#">Search</a></div>
+        
+    </header>
+    <div class="container">
+        <h3>Welcome To MySalon</h3>
+        <form class="form">
+            <div> <input type="text" name="" placeholder="Enter Your Name"></div>
+            <div> <input type="text" name="" placeholder="Enter Your Name"></div>
+            <div> <input type="text" name="" placeholder="Enter Your Name"></div>
+            <div> <input type="text" name="" placeholder="Enter Your Name"></div>
+           
+           
+        </form>
+        <button class="btn">submit</button>
+
+       </div>
+    
+    
+</body>
+</html>
